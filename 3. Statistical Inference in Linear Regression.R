@@ -319,7 +319,6 @@ mydata_sub_sec5$model_1_residual <- mydata_sub_sec5$HouseholdIncome - mydata_sub
 mydata_sub_sec5$model_1_residual_sqrd <- mydata_sub_sec5$model_1_residual ^ 2
 sum(mydata_sub_sec5$model_1_residual_sqrd)
 
-
 # Sum of Squares Total
 mydata_sub_sec5$model_1_mean_dev <-mydata_sub_sec5$HouseholdIncome - mean(mydata_sub_sec5$HouseholdIncome)
 mydata_sub_sec5$model_1_mean_dev_sq <- mydata_sub_sec5$model_1_mean_dev ^ 2
@@ -331,7 +330,6 @@ mydata_sub_sec5$model_1_yhat_dev_sq <- mydata_sub_sec5$model_1_yhat_devbar ^ 2
 sum(mydata_sub_sec5$model_1_yhat_dev_sq)
 
 sum(mydata_sub_sec5$model_1_yhat_dev_sq) / sum(mydata_sub_sec5$model_1_mean_dev_sq)
-
 
 # Model 2
 model2 <- lm(HouseholdIncome ~ College + Insured, data = mydata_sub)
