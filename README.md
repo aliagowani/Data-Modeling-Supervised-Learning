@@ -8,4 +8,4 @@ This course introduces traditional statistics and data modeling for supervised l
 - Compared and contrasted the conceptual and practical differences between statistical inference and predictive modeling.
 - Created programs and code using the R statistical computing framework for data manipulation, exploratory data analysis, and for fitting and validating statistical models.
 - Modeled non-linear relationships between variables using transformations, higher-order linear models, and models with interaction.
-- Used automated variable selection procedures as a tool for model identification in the presence of a large number of predictor variables, in addition to articulating procedure strengths and limitations
+- Used automated variable selection procedures as a tool for model identification in the presence of a large number of predictor variables, in addition to articulating procedure strengths and limitations.
