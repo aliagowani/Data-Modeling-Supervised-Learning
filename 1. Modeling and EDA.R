@@ -860,13 +860,9 @@ subnew$absdffit <- abs(subnew$dffit)
 
 subnewinf <- subnew[which(subnew$absdf < 0.064),]
 
-
-
 MLRLogresult = lm(logSalePrice ~ TotalFloorSF+OverallQual+HouseAge+
                     LotArea+BsmtFinSF1+TotalBsmtSF+Style1+Style2,data=subnewinf)
 anova(MLRLogresult)
 summary(MLRLogresult)
 par(mfrow=c(2,2))  # visualize four graphs at once
 plot(MLRLogresult)
-
-
